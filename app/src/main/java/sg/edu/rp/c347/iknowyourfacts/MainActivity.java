@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         } else if (id == R.id.random) {
             Random random = new Random();
-            System.out.println(random.nextInt(2));
+            System.out.println(random.nextInt(3));
             return true;
         } else {
             int max = vPager.getChildCount();
